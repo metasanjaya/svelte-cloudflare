@@ -1,5 +1,5 @@
 {
-	"name": "server-management",
+	"name": "svelte-cloudflare",
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
@@ -20,6 +20,7 @@
 		"svelte": "^5.41.0",
 		"svelte-check": "^4.3.3",
 		"typescript": "^5.9.3",
-		"vite": "^7.1.10"
+		"vite": "^7.1.10",
+		"kleur": "^4.1.5"
 	}
 }

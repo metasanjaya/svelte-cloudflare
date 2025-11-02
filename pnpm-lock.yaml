@@ -23,6 +23,9 @@ importers:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^6.2.1
         version: 6.2.1(svelte@5.43.2)(vite@7.1.12)
+      kleur:
+        specifier: ^4.1.5
+        version: 4.1.5
       svelte:
         specifier: ^5.41.0
         version: 5.43.2
