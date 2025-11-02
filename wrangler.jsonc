@@ -4,8 +4,8 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "server-management",
-	"main": "src/index.ts",
+	"name": "svelte-cloudflare",
+	"main": "src/worker.ts",
 	"compatibility_date": "2025-11-01",
 	"migrations": [
 		{
@@ -17,7 +17,8 @@
 	],
 	"assets": {
 		// The path to the directory containing the `index.html` file to be served at `/`
-		"directory": "./public"
+		"directory": "./.svelte-kit/cloudflare/",
+		"binding": "ASSETS"
 	},
 	"durable_objects": {
 		"bindings": [
@@ -28,7 +29,7 @@
 		]
 	},
 	"observability": {
-		"enabled": true
+		"enabled": false
 	}
 	/**
 	 * Smart Placement
